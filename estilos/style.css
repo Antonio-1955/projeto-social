@@ -6,8 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
 }
 
 body{
@@ -16,6 +17,18 @@ body{
     background: black url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+main > h1{
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+    width: 800px;
+    border-radius: 15px;
+    text-shadow: 1px 1px 2px greenyellow;
+    text-align: center;
+    padding: 10px;
+    
 }
 
 main{ 
@@ -41,8 +54,8 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 266px;
-    height: 470px;
+    width: 268px;
+    height: 472px;
 }
 
 section#redes-sociais{
